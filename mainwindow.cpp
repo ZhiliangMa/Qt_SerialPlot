@@ -43,11 +43,11 @@ MainWindow::MainWindow(QWidget *parent)
     QLabel *lblLinkBlog = new QLabel(this);
     lblLinkBlog->setOpenExternalLinks(true);
     //lblLinkBlog->setText("<a href=\"https://blog.csdn.net/Mark_md/article/details/108928314\">博客");// 有下划线
-    lblLinkBlog->setText("<style> a {text-decoration: none} </style> <a href=\"https://blog.csdn.net/Mark_md/article/details/108928314\">博客");// 无下划线
+    lblLinkBlog->setText("<style> a {text-decoration: none} </style> <a href=\"https://blog.csdn.net/Mark_md/article/details/109995490\">博客");// 无下划线
     QLabel *lblLinkSource = new QLabel(this);
     lblLinkSource->setOpenExternalLinks(true);
     //lblLinkSource->setText("<a href=\"https://github.com/ZhiliangMa/Qt-SerialDebuger\">源码下载");
-    lblLinkSource->setText("<style> a {text-decoration: none} </style> <a href=\"https://github.com/ZhiliangMa/Qt-SerialDebuger\">源码下载");// 无下划线
+    lblLinkSource->setText("<style> a {text-decoration: none} </style> <a href=\"https://github.com/ZhiliangMa/Qt_SerialPlot\">源码下载");// 无下划线
     lblLinkBlog->setMinimumSize(40, 20);
     lblLinkSource->setMinimumSize(60, 20);
     // 从左往右依次添加
@@ -59,7 +59,7 @@ MainWindow::MainWindow(QWidget *parent)
     lblRecvFrameNum->setMinimumSize(100, 20);
     lblFrameRate->setMinimumSize(80, 20);
     setNumOnLabel(lblRecvFrameNum, "FNum: ", recvFrameNum);
-    setNumOnLabel(lblFrameRate, "FPS/s: ", recvFrameRate);
+    setNumOnLabel(lblFrameRate, "FPS: ", recvFrameRate);
     // 从右往左依次添加
     sBar->addPermanentWidget(lblRecvFrameNum);
     sBar->addPermanentWidget(lblFrameRate);
@@ -462,7 +462,7 @@ void MainWindow::dataRateCalculate(void)
 
     setNumOnLabel(lblSendRate, "Byte/s: ", sendRate);
     setNumOnLabel(lblRecvRate, "Byte/s: ", recvRate);
-    setNumOnLabel(lblFrameRate, "FPS/s: ", recvFrameRate);
+    setNumOnLabel(lblFrameRate, "FPS: ", recvFrameRate);
     tSend = sendNum;
     tRecv = recvNum;
     tFrame = recvFrameNum;
