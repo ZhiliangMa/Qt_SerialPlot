@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>debug_32px_1103189_easyicon.net.ico</file>
+        <file>chart_curve_32px_506507_easyicon.net.ico</file>
+        <file>pic/ssCircle.png</file>
+        <file>pic/ssDisc.png</file>
+        <file>pic/ssSquare.png</file>
+        <file>pic/ssDiamond.png</file>
+        <file>pic/ssCross.png</file>
+        <file>pic/ssPlus.png</file>
+        <file>pic/ssStar.png</file>
+        <file>pic/ssTriangle.png</file>
+        <file>pic/ssTriangleInverted.png</file>
+        <file>pic/ssNone.png</file>
+        <file>pic/ssCrossSquare.png</file>
+        <file>pic/ssPlusSquare.png</file>
+        <file>pic/ssCrossCircle.png</file>
+        <file>pic/ssPlusCircle.png</file>
+        <file>pic/ssPeace.png</file>
+        <file>axis_64px_1200251_easyicon.net.ico</file>
+    </qresource>
+</RCC>
